@@ -1,14 +1,16 @@
-package com.example.demo.data;
+package com.example.demo.data.mySqlData;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductId {
+@Data
+public class NamePrice {
     @JsonProperty("product_id")
     private String productId;
+    private Double price;
+    private String name;
 }

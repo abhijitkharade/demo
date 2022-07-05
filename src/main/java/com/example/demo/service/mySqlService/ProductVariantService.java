@@ -1,7 +1,7 @@
 package com.example.demo.service.mySqlService;
 
 import com.example.demo.model.mySqlModel.ProductVariant;
-import com.example.demo.data.NamePrice;
+import com.example.demo.data.mySqlData.NamePrice;
 import com.example.demo.repository.mySqlRepository.ProductJpaRepository;
 import com.example.demo.repository.mySqlRepository.ProductVariantRepository;
 import org.springframework.beans.factory.annotation.Autowired;

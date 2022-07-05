@@ -1,8 +1,8 @@
 package com.example.demo.controller.mySqlController;
 
 import com.example.demo.model.mySqlModel.ProductVariant;
-import com.example.demo.data.NamePrice;
-import com.example.demo.data.ProductId;
+import com.example.demo.data.mySqlData.NamePrice;
+import com.example.demo.data.mySqlData.ProductId;
 import com.example.demo.repository.mySqlRepository.ProductJpaRepository;
 import com.example.demo.repository.mySqlRepository.ProductVariantRepository;
 import com.example.demo.service.mySqlService.ProductVariantService;
