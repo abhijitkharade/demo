@@ -1,15 +1,12 @@
-package com.example.demo.controller;
+package com.example.demo.controller.mySqlController;
 
-import com.example.demo.Model.ProductVariant;
+import com.example.demo.model.mySqlModel.ProductVariant;
 import com.example.demo.data.NamePrice;
 import com.example.demo.data.ProductId;
-import com.example.demo.repository.ProductJpaRepository;
-import com.example.demo.repository.ProductVariantRepository;
-import com.example.demo.service.ProductVariantService;
-import netscape.javascript.JSObject;
-import org.json.JSONObject;
+import com.example.demo.repository.mySqlRepository.ProductJpaRepository;
+import com.example.demo.repository.mySqlRepository.ProductVariantRepository;
+import com.example.demo.service.mySqlService.ProductVariantService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

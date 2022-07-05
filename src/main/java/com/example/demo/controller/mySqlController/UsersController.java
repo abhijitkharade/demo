@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.demo.controller.mySqlController;
 
-import com.example.demo.Model.UserLoginInfo;
-import com.example.demo.repository.UserJpaRepository;
+import com.example.demo.model.mySqlModel.UserLoginInfo;
+import com.example.demo.repository.mySqlRepository.UserJpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

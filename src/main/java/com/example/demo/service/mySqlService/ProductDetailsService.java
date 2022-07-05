@@ -1,8 +1,6 @@
-package com.example.demo.service;
+package com.example.demo.service.mySqlService;
 
-import com.example.demo.Model.ProductVariant;
-import com.example.demo.repository.ProductJpaRepository;
-import com.example.demo.repository.ProductVariantRepository;
+import com.example.demo.repository.mySqlRepository.ProductJpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

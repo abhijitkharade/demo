@@ -1,8 +1,7 @@
-package com.example.demo.repository;
+package com.example.demo.repository.mySqlRepository;
 
-import com.example.demo.Model.UserLoginInfo;
+import com.example.demo.model.mySqlModel.UserLoginInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 

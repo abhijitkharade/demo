@@ -1,9 +1,8 @@
-package com.example.demo.Model;
+package com.example.demo.model.mySqlModel;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.OptimisticLock;
 import org.json.JSONObject;
 
 import javax.persistence.Column;

@@ -1,11 +1,9 @@
 
-package com.example.demo.controller;
+package com.example.demo.controller.mySqlController;
 
-import com.example.demo.Model.ProductDetails;
-import com.example.demo.Model.UserLoginInfo;
-import com.example.demo.repository.ProductJpaRepository;
+import com.example.demo.model.mySqlModel.ProductDetails;
+import com.example.demo.repository.mySqlRepository.ProductJpaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

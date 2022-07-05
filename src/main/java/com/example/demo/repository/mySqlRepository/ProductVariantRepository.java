@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.demo.repository.mySqlRepository;
 
-import com.example.demo.Model.ProductVariant;
+import com.example.demo.model.mySqlModel.ProductVariant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
