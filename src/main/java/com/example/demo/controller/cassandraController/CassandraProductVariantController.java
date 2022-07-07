@@ -1,6 +1,7 @@
 package com.example.demo.controller.cassandraController;
 
 
+import com.example.demo.data.mySqlData.ProductId;
 import com.example.demo.model.cassandraModel.CassandraProductVariant;
 import com.example.demo.service.cassandraService.CassandraProductVariantService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,5 +20,9 @@ public class CassandraProductVariantController {
  public CassandraProductVariant findById(@PathVariable String skuCode){
        return cassandraProductVariantService.findById(skuCode).get();
    }
+    @GetMapping(value = "/info/{productId}")
+    public List<CassandraProductVariant> findByProductId(@PathVariable String productId){
+        return cassandraProductVariantService.findByProductId(productId);
+    }
 
 }
