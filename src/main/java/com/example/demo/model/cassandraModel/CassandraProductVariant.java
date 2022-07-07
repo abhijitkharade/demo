@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
+import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.core.mapping.Table;
 
 
@@ -14,8 +15,12 @@ import org.springframework.data.cassandra.core.mapping.Table;
 @Table("product_variant")
 public class CassandraProductVariant {
     @PrimaryKey("sku_code")
-//    @Column("sku_code")
+    @Column("sku_code")
     private String skuCode;
+
+//@PrimaryKeyColumn(name = "TableConstant.COLUMN_SKU_CODE, ordinal = 0, type = PrimaryKeyType.PARTITIONED")
+//private String skuCode;
+
     @Column("business_name")
     private String businessName;
 
