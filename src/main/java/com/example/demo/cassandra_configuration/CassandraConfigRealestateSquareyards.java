@@ -19,10 +19,12 @@ public class CassandraConfigRealestateSquareyards {
 
     @Autowired
     CassandraConfig cassandraConfig;
-    @Resource(name = "cluster" + "${realestate_squareyards.cluster}")
+    //@Resource(name = "cluster" + "${realestate_squareyards.cluster}")
+    @Resource(name = "cluster" + "${test_ks.cluster}")
     Cluster cluster;
 
-    private String keyspace = "realestate_squareyards";
+    //private String keyspace = "realestate_squareyards";
+    private String keyspace = "test_ks";
 
     @Bean("keyspaceSquareyardsSession")
     public CassandraSessionFactoryBean session() {
